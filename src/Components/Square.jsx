@@ -6,7 +6,7 @@ export function Square({itemName, imgSrc, defaulImg, flipCard, index}){
   
     return (
       <div onClick={handleClick} className="square w-full h-full overflow-hidden">
-        <div className="flip-card relative p-1 hover:cursor-pointer">
+        <div className="flip-card show-card-face relative p-1 hover:cursor-pointer">
           <div className="front-face flex justify-center items-center overflow-hidden rounded absolute top-0 z-20 ">
             <figure>
               <img src={imgSrc} alt={itemName} />

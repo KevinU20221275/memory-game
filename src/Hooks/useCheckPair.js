@@ -44,9 +44,16 @@ export const useCheckPair = () => {
     } 
 
     const resetGame = () =>{
-        document.querySelectorAll('.flip-card').forEach(card => {
-            card.classList.remove('show-card-face')
-        })
+            document.querySelectorAll('.flip-card').forEach(card => {
+                card.classList.add('show-card-face')
+            })
+            
+            setTimeout(() => {
+                document.querySelectorAll('.flip-card').forEach(card => {
+                    card.classList.remove('show-card-face')
+                })
+            },2000)
+
 
         setScore(0)
 

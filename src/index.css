@@ -43,6 +43,23 @@
  width: 90%;
  height: 100%;
  object-fit: contain;
+ animation: fadeIn 1.5s ease-in;
+}
+
+.board {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.score {
+  transition: all 2s ease-in;
 }
 
 .winnerModal {
