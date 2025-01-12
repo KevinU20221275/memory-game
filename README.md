@@ -28,7 +28,7 @@ This is a card matching game developed with React, designed to test your memory 
 
 2. Navigate to the project directory.
     ```bash
-    cd project-name
+    cd memory-game
 
 3. Install the dependencies.
     ```bash
@@ -38,4 +38,6 @@ This is a card matching game developed with React, designed to test your memory 
     ```bash
     npm run dev
 
-Open http://localhost:3000 in your browser to play.
+If everything is configured correctly, the project should be running on http://localhost:5173, which is Vite's default port. If you use another port, the terminal will tell you.
+
+you can see the project live at: https://luminous-valkyrie-e7fb3d.netlify.app/
